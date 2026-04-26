@@ -42,7 +42,7 @@ export const Navbar = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
           <img src="/logos/club-logo.png"  alt="DBSC Logo"     style={{ height: '42px', width: 'auto' }} />
           <div style={{ width: '1px', height: '30px', background: 'var(--border)' }} />
-          <img src="/logos/event-logo.png" alt="Aastrive Logo" style={{ height: '34px', width: 'auto' }} />
+          <img src="/logos/event-logo.png" alt="Aastrive Logo" style={{ height: '60px', width: 'auto' }} />
         </div>
 
         {/* Desktop nav links */}

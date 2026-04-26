@@ -57,7 +57,7 @@ export const Hero = () => (
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', marginBottom: '2.5rem', flexWrap: 'wrap' }}>
         <img src="/logos/club-logo.png"  alt="DBSC"     style={{ height: '76px', filter: 'drop-shadow(0 4px 20px rgba(0,0,0,0.55))' }} />
         <div style={{ width: '1px', height: '52px', background: 'rgba(255,255,255,0.18)' }} />
-        <img src="/logos/event-logo.png" alt="Aastrive" style={{ height: '60px', filter: 'drop-shadow(0 4px 20px rgba(0,0,0,0.45)) brightness(1.05)' }} />
+        <img src="/logos/event-logo.png" alt="Aastrive" style={{ height: '95px', filter: 'drop-shadow(0 4px 20px rgba(0,0,0,0.45)) brightness(1.05)' }} />
       </div>
 
       {/* Badge */}
