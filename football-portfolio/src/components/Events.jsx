@@ -74,8 +74,21 @@ export const Events = () => (
         ))}
       </div>
 
+      {/* Event Videos */}
       <div style={{
-        marginTop: '2rem', padding: '1.25rem 1.5rem',
+        marginTop: '3rem',
+        display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem'
+      }}>
+        <div style={{ borderRadius: '1rem', overflow: 'hidden', boxShadow: 'var(--card-shadow)', border: '1px solid var(--border-color)', aspectRatio: '16/9' }}>
+          <video src="/events/event1.mp4" autoPlay loop muted playsInline style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+        </div>
+        <div style={{ borderRadius: '1rem', overflow: 'hidden', boxShadow: 'var(--card-shadow)', border: '1px solid var(--border-color)', aspectRatio: '16/9' }}>
+          <video src="/events/event2.mp4" autoPlay loop muted playsInline style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+        </div>
+      </div>
+
+      <div style={{
+        marginTop: '3rem', padding: '1.25rem 1.5rem',
         background: 'var(--primary-muted)', borderRadius: '0.875rem',
         border: '1px solid var(--border-accent)', textAlign: 'center',
       }}>
